@@ -13,7 +13,6 @@ class Colors:
 
 # File to store contacts
 CONTACTS_FILE = 'contacts.json'
-
 def load_contacts():
     """Load contacts from the JSON file."""
     if os.path.exists(CONTACTS_FILE):
